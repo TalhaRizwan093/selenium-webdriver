@@ -27,5 +27,5 @@ submit_button.click()
 message = driver.find_element(by=By.ID, value="message")
 value = message.text
 
-assert value == "Received!"
+assert value == "Dont Received!"
 driver.quit()
